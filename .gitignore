@@ -1,0 +1,42 @@
+# =========================================
+# Gitignore for a Spring Boot (Java/Maven) project
+# =========================================
+
+# Compiled class files
+*.class
+
+# Build output
+/target/
+/build/
+
+# Logs
+*.log
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# Spring Boot properties (if you keep secrets locally; remove if not needed)
+# application.properties
+# application.yml
+
+# IDEs and editors
+## IntelliJ IDEA
+/.idea/
+/*.iml
+/*.iws
+out/
+
+## Eclipse
+/.classpath
+/.project
+/.settings/
+/bin/
+
+## VS Code
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
